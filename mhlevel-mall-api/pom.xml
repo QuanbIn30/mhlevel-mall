@@ -11,5 +11,12 @@
 
     <artifactId>mhlevel-mall-api</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.mhlevel</groupId>
+            <artifactId>mhlevel-mall-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>

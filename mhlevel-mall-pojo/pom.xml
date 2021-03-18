@@ -11,5 +11,12 @@
 
     <artifactId>mhlevel-mall-pojo</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.mhlevel</groupId>
+            <artifactId>mhlevel-mall-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -7,13 +7,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mhlevel-mall" />
+        <module name="mhlevel-mall-pojo" />
+        <module name="mhlevel-mall-api" />
+        <module name="mhlevel-mall-common" />
+        <module name="mhlevel-mall-mapper" />
+        <module name="mhlevel-mall-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mhlevel-mall" options="-parameters" />
+      <module name="mhlevel-mall-api" options="-parameters" />
+      <module name="mhlevel-mall-common" options="-parameters" />
+      <module name="mhlevel-mall-mapper" options="-parameters" />
+      <module name="mhlevel-mall-pojo" options="-parameters" />
+      <module name="mhlevel-mall-service" options="-parameters" />
     </option>
   </component>
 </project>
