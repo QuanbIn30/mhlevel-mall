@@ -1,0 +1,1 @@
+2021-03-20 23:13:08 WARN  DefaultHandlerExceptionResolver:198 - Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'rootCatId' for method parameter of type Integer]

@@ -4,6 +4,7 @@ org/n3r/idworker/strategy/DefaultWorkerIdStrategy$2.class
 org/n3r/idworker/utils/Ip.class
 org/n3r/idworker/RandomCodeStrategy.class
 org/n3r/idworker/utils/Serializes.class
+com/mhlevel/enums/YesOrNo.class
 org/n3r/idworker/WorkerIdStrategy.class
 org/n3r/idworker/InvalidSystemClock.class
 org/n3r/idworker/Code.class
