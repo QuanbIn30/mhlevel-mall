@@ -2,45 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d008c22-78a1-4c0e-9f58-df3eda1ee868" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/enums/Sex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/utils/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/utils/MD5Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/Code.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/DayCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/Id.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/IdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/InvalidSystemClock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/RandomCodeStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/Sid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/WorkerIdStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/strategy/DayPrefixRandomCodeStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/strategy/DefaultRandomCodeStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/strategy/DefaultWorkerIdStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/strategy/FileLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/utils/HttpReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/utils/IPv4Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/utils/Ip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/utils/Props.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/utils/Serializes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mhlevel-mall-pojo/src/main/java/com/mhlevel/pojo/bo/UserBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/config/Swagger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mhlevel-mall-api/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/utils/JsonUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/controller/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/controller/Hello.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/controller/PassportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/controller/PassportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mhlevel-mall-api/target/classes/com/mhlevel/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-api/target/classes/com/mhlevel/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/controller/StuFooController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/controller/StuFooController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mhlevel-mall-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mhlevel-mall-api/target/classes/com/mhlevel/controller/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-api/target/classes/com/mhlevel/controller/Hello.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mhlevel-mall-api/target/classes/com/mhlevel/controller/PassportController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-api/target/classes/com/mhlevel/controller/PassportController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mhlevel-mall-api/target/classes/com/mhlevel/controller/StuFooController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-api/target/classes/com/mhlevel/controller/StuFooController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mhlevel-mall-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mhlevel-mall-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mhlevel-mall-api/target/mhlevel-mall-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-api/target/mhlevel-mall-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mhlevel-mall-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mhlevel-mall-common/target/mhlevel-mall-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-common/target/mhlevel-mall-common-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mhlevel-mall-mapper/target/mhlevel-mall-mapper-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-mapper/target/mhlevel-mall-mapper-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mhlevel-mall-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mhlevel-mall-pojo/src/main/java/com/mhlevel/pojo/bo/UserBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-pojo/src/main/java/com/mhlevel/pojo/bo/UserBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mhlevel-mall-pojo/target/classes/com/mhlevel/pojo/bo/UserBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-pojo/target/classes/com/mhlevel/pojo/bo/UserBO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mhlevel-mall-pojo/target/mhlevel-mall-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-pojo/target/mhlevel-mall-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mhlevel-mall-service/src/main/java/com/mhlevel/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-service/src/main/java/com/mhlevel/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mhlevel-mall-service/src/main/java/com/mhlevel/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-service/src/main/java/com/mhlevel/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mhlevel-mall-service/target/classes/com/mhlevel/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-service/target/classes/com/mhlevel/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mhlevel-mall-service/target/classes/com/mhlevel/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-service/target/classes/com/mhlevel/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mhlevel-mall-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mhlevel-mall-service/target/mhlevel-mall-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mhlevel-mall-service/target/mhlevel-mall-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,14 +50,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/controller/PassportController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="649">
+              <caret line="131" column="1" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mhlevel-mall-api/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/controller/Hello.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mhlevel-mall-api/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -79,18 +109,25 @@
       <list>
         <option value="package-info" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>500</find>
+      <find>test</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -100,9 +137,7 @@
         <option value="$PROJECT_DIR$/mhlevel-mall-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/mhlevel-mall-service/pom.xml" />
         <option value="$PROJECT_DIR$/mhlevel-mall-api/pom.xml" />
-        <option value="$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/controller/Hello.java" />
         <option value="$PROJECT_DIR$/mhlevel-mall-pojo/src/main/java/com/mhlevel/pojo/ItemsImg.java" />
-        <option value="$PROJECT_DIR$/mhlevel-mall-api/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/mhlevel-mall-mapper/src/main/java/com/mhlevel/my/mapper/MyMapper.java" />
         <option value="$PROJECT_DIR$/mhlevel-mall-mapper/src/main/java/com/mhlevel/mapper/CarouselMapper.java" />
         <option value="$PROJECT_DIR$/mhlevel-mall-mapper/src/main/java/com/mhlevel/mapper/CategoryMapper.java" />
@@ -122,17 +157,25 @@
         <option value="$PROJECT_DIR$/mhlevel-mall-service/src/main/java/com/mhlevel/service/StuService.java" />
         <option value="$PROJECT_DIR$/mhlevel-mall-service/src/main/java/com/mhlevel/service/impl/StuServiceImpl.java" />
         <option value="$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/controller/StuFooController.java" />
         <option value="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/utils/MHLEVELJSONResult.java" />
-        <option value="$PROJECT_DIR$/mhlevel-mall-pojo/src/main/java/com/mhlevel/pojo/bo/UserBO.java" />
         <option value="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/utils/MD5Utils.java" />
-        <option value="$PROJECT_DIR$/mhlevel-mall-service/src/main/java/com/mhlevel/service/UserService.java" />
         <option value="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/utils/DateUtil.java" />
-        <option value="$PROJECT_DIR$/mhlevel-mall-service/src/main/java/com/mhlevel/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/enums/Sex.java" />
         <option value="$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/Application.java" />
+        <option value="$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/config/Swagger2.java" />
+        <option value="$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/controller/StuFooController.java" />
+        <option value="$PROJECT_DIR$/mhlevel-mall-pojo/src/main/java/com/mhlevel/pojo/bo/UserBO.java" />
+        <option value="$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/config/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/mhlevel-mall-service/src/main/java/com/mhlevel/service/UserService.java" />
+        <option value="$PROJECT_DIR$/mhlevel-mall-service/src/main/java/com/mhlevel/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/utils/CookieUtils.java" />
+        <option value="$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/utils/JsonUtils.java" />
+        <option value="$PROJECT_DIR$/mhlevel-mall-api/src/test/java/com/mhlevel/controller/PassportControllerTest.java" />
+        <option value="$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/controller/Hello.java" />
+        <option value="$PROJECT_DIR$/mhlevel-mall-api/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/controller/PassportController.java" />
+        <option value="$PROJECT_DIR$/mhlevel-mall-api/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -211,187 +254,7 @@
               <item name="mhlevel-mall-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mhleve-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mhlevel-mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel-mall-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mhlevel" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -409,7 +272,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mhlevel-mall-common/src/main/java" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mhlevel-mall-api/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -418,12 +283,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mhlevel.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mhlevel.utils" />
       <recent name="com.mhlevel.pojo" />
       <recent name="com.mhlevel.my.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mhlevel-mall-api/src/main/resources" />
       <recent name="$PROJECT_DIR$/mhlevel-mall-common/src/main/java" />
       <recent name="$PROJECT_DIR$/mhlevel-mall-mapper/src/main/resources/mapper" />
       <recent name="$PROJECT_DIR$/mhlevel-mall-mapper/src/main/java/com/mhlevel/mapper" />
@@ -473,6 +345,8 @@
       <list>
         <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -495,7 +369,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30219000" />
+    <option name="totallyTimeSpent" value="40242000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-298" y="-1057" width="1920" height="1057" extended-state="6" />
@@ -515,7 +398,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32953367" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32953367" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="9" />
@@ -583,67 +466,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mhlevel-mall-mapper/src/main/java/com/mhlevel/mapper/UserAddressMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mhlevel-mall-mapper/src/main/java/com/mhlevel/mapper/UsersMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mhlevel-mall-mapper/src/main/java/com/mhlevel/my/mapper/MyMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mhlevel-mall-pojo/src/main/java/com/mhlevel/pojo/ItemsParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <element signature="e#4156#4157#0" expanded="true" />
-            <element signature="e#4185#4186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mhlevel-mall-mapper/src/main/java/com/mhlevel/mapper/ItemsParamMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mhlevel-mall-mapper/src/main/java/com/mhlevel/mapper/OrderStatusMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mhlevel-mall-mapper/src/main/resources/mapper/CarouselMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mhlevel-mall-mapper/src/main/resources/mapper/CategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mhlevel-mall-mapper/src/main/resources/mapper/ItemsCommentsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mhlevel-mall-mapper/src/main/resources/mapper/ItemsImgMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/mhlevel-mall-mapper/src/main/resources/mapper/ItemsParamMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -691,13 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mhlevel-mall-api/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mhlevel-mall-service/src/main/java/com/mhlevel/service/impl/StuServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -733,47 +548,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/controller/StuFooController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-          <folding>
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1608">
-          <caret line="67" column="31" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/utils/MHLEVELJSONResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1618#1619#0" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
-            <element signature="e#1727#1728#0" expanded="true" />
-            <element signature="e#1786#1787#0" expanded="true" />
-            <element signature="e#1846#1847#0" expanded="true" />
-            <element signature="e#1910#1911#0" expanded="true" />
-            <element signature="e#2320#2321#0" expanded="true" />
-            <element signature="e#2349#2350#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -791,16 +569,6 @@
           <folding>
             <element signature="e#10547#10548#0" expanded="true" />
             <element signature="e#10583#10584#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/utils/MD5Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -838,44 +606,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mhlevel-mall-common/src/main/java/org/n3r/idworker/strategy/DefaultWorkerIdStrategy.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/utils/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mhlevel-mall-pojo/src/main/java/com/mhlevel/pojo/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="227" column="16" selection-start-line="227" selection-start-column="16" selection-end-line="227" selection-end-column="16" />
-          <folding>
-            <element signature="e#3418#3419#0" expanded="true" />
-            <element signature="e#3448#3449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mhlevel-mall-service/src/main/java/com/mhlevel/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mhlevel-mall-service/src/main/java/com/mhlevel/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/enums/Sex.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -921,25 +651,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/controller/PassportController.java">
+    <entry file="file://$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/config/Swagger2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="261">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/controller/StuFooController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.6/swagger-annotations-1.5.6-sources.jar!/io/swagger/annotations/ApiOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.6/swagger-annotations-1.5.6-sources.jar!/io/swagger/annotations/ApiModelProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="77" column="49" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mhlevel-mall-pojo/src/main/java/com/mhlevel/pojo/bo/UserBO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="-97">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
             <element signature="e#385#386#0" expanded="true" />
             <element signature="e#416#417#0" expanded="true" />
             <element signature="e#464#465#0" expanded="true" />
@@ -949,6 +706,158 @@
             <element signature="e#654#655#0" expanded="true" />
             <element signature="e#712#713#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mhlevel-mall-service/src/main/java/com/mhlevel/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mhlevel-mall-pojo/src/main/java/com/mhlevel/pojo/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#3418#3419#0" expanded="true" />
+            <element signature="e#3448#3449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mhlevel-mall-service/src/main/java/com/mhlevel/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/utils/MD5Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/utils/CookieUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="220" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/utils/MHLEVELJSONResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1618#1619#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
+            <element signature="e#1727#1728#0" expanded="true" />
+            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1910#1911#0" expanded="true" />
+            <element signature="e#2320#2321#0" expanded="true" />
+            <element signature="e#2349#2350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/utils/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mhlevel-mall-common/src/main/java/com/mhlevel/utils/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mhlevel-mall-api/src/test/java/com/mhlevel/controller/PassportControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/controller/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mhlevel-mall-api/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mhlevel-mall-api/src/main/java/com/mhlevel/controller/PassportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="131" column="1" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mhlevel-mall-api/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
