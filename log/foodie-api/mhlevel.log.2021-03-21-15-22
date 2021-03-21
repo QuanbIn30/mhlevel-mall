@@ -1,0 +1,11 @@
+2021-03-21 15:22:40 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-21 15:22:40 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-03-21 15:22:40 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-03-21 15:22:55 INFO  Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2021-03-21 15:22:55 INFO  Application:50 - Starting Application on quanbindeMacBook-Pro.local with PID 89828 (/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/target/classes started by quanbin in /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall)
+2021-03-21 15:22:55 INFO  Application:675 - No active profile set, falling back to default profiles: default
+2021-03-21 15:22:57 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.mhlevel]' package. Please check your configuration.
+2021-03-21 15:22:57 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$521e00af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-21 15:22:58 INFO  TomcatWebServer:90 - Tomcat initialized with port(s): 8088 (http)
+2021-03-21 15:22:58 INFO  ContextLoader:296 - Root WebApplicationContext: initialization completed in 2312 ms
+2021-03-21 15:22:59 INFO  ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
