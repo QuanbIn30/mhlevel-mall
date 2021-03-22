@@ -1,0 +1,21 @@
+2021-03-22 22:47:09 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-22 22:47:14 INFO  Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2021-03-22 22:47:15 INFO  Application:50 - Starting Application on quanbindeMacBook-Pro.local with PID 21495 (/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/target/classes started by quanbin in /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall)
+2021-03-22 22:47:15 INFO  Application:675 - No active profile set, falling back to default profiles: default
+2021-03-22 22:47:16 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.mhlevel]' package. Please check your configuration.
+2021-03-22 22:47:16 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f9bd3d91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-22 22:47:16 INFO  TomcatWebServer:90 - Tomcat initialized with port(s): 8088 (http)
+2021-03-22 22:47:16 INFO  ContextLoader:296 - Root WebApplicationContext: initialization completed in 1629 ms
+2021-03-22 22:47:19 INFO  ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-22 22:47:19 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-03-22 22:47:19 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-03-22 22:47:19 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-03-22 22:47:19 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2021-03-22 22:47:19 INFO  DocumentationPluginsBootstrapper:84 - Context refreshed
+2021-03-22 22:47:19 INFO  DocumentationPluginsBootstrapper:87 - Found 1 custom documentation plugin(s)
+2021-03-22 22:47:19 INFO  ApiListingReferenceScanner:44 - Scanning for api listing references
+2021-03-22 22:47:19 INFO  TomcatWebServer:204 - Tomcat started on port(s): 8088 (http) with context path ''
+2021-03-22 22:47:19 INFO  Application:59 - Started Application in 5.022 seconds (JVM running for 6.205)
+2021-03-22 22:47:24 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-03-22 22:47:24 INFO  DispatcherServlet:546 - Completed initialization in 19 ms
+2021-03-22 22:47:58 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'

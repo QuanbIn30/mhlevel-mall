@@ -6,6 +6,7 @@ import com.mhlevel.mapper.*;
 import com.mhlevel.pojo.*;
 import com.mhlevel.pojo.vo.CommentLevelCountsVO;
 import com.mhlevel.pojo.vo.ItemCommentVO;
+import com.mhlevel.pojo.vo.SearchItemsVO;
 import com.mhlevel.service.ItemService;
 import com.mhlevel.utils.DesensitizationUtil;
 import com.mhlevel.utils.PageGridResult;
@@ -128,6 +129,16 @@ public class ItemServiceImpl implements ItemService {
         }
 
         return setterPagedGrid(itemCommentVOS, page);
+    }
+
+    @Override
+    public PageGridResult searchItems(String keyword, String sort, Integer page, Integer pageSize) {
+        Map<String, Object> map = new HashMap<>();
+        map.put("keyword", keyword);
+        map.put("sort", sort);
+        PageHelper.startPage(page, pageSize);
+        List<SearchItemsVO> searchItemsVOList  = itemsMapperCustom.searchItems(map);
+        return setterPagedGrid(searchItemsVOList, page);
     }
 
     private PageGridResult setterPagedGrid(List<?> list, Integer page){
