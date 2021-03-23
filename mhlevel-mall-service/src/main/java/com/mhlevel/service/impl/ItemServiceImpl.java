@@ -7,6 +7,7 @@ import com.mhlevel.pojo.*;
 import com.mhlevel.pojo.vo.CommentLevelCountsVO;
 import com.mhlevel.pojo.vo.ItemCommentVO;
 import com.mhlevel.pojo.vo.SearchItemsVO;
+import com.mhlevel.pojo.vo.ShopcartVO;
 import com.mhlevel.service.ItemService;
 import com.mhlevel.utils.DesensitizationUtil;
 import com.mhlevel.utils.PageGridResult;
@@ -16,9 +17,7 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import tk.mybatis.mapper.entity.Example;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author quanbin
@@ -158,5 +157,13 @@ public class ItemServiceImpl implements ItemService {
         grid.setTotal(pageList.getPages());
         grid.setRecords(pageList.getTotal());
         return grid;
+    }
+
+    @Override
+    public List<ShopcartVO> queryItemsBySpecIds(String specIds) {
+        String[] ids = specIds.split(",");
+        List<String> specIdsList = new ArrayList<>();
+        Collections.addAll(specIdsList, ids);
+        return itemsMapperCustom.queryItemsBySpecIds(specIdsList);
     }
 }

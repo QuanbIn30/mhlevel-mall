@@ -7,6 +7,7 @@ import com.mhlevel.pojo.ItemsSpec;
 import com.mhlevel.pojo.vo.CommentLevelCountsVO;
 import com.mhlevel.pojo.vo.ItemInfoVo;
 import com.mhlevel.pojo.vo.SearchItemsVO;
+import com.mhlevel.pojo.vo.ShopcartVO;
 import com.mhlevel.service.ItemService;
 import com.mhlevel.utils.MHLEVELJSONResult;
 import com.mhlevel.utils.PageGridResult;
@@ -147,5 +148,18 @@ public class ItemsController extends BaseController{
 
         PageGridResult gridResult = itemService.searchItems(catId, sort, page, pageSize);
         return MHLEVELJSONResult.ok(gridResult);
+    }
+
+    @ApiOperation(value = "刷新购物车中的商品信息", notes = "刷新购物车中的商品信息", httpMethod = "GET")
+    @GetMapping("/refresh")
+    public MHLEVELJSONResult refresh(
+            @ApiParam(name = "itemSpecIds", value = "拼接规格ids", required = true, example = "1001,1003,1005")
+            @RequestParam String itemSpecIds
+    ){
+        if(StringUtils.isBlank(itemSpecIds)){
+            return MHLEVELJSONResult.ok();
+        }
+        List<ShopcartVO> shopcartVOList = itemService.queryItemsBySpecIds(itemSpecIds);
+        return MHLEVELJSONResult.ok(shopcartVOList);
     }
 }
