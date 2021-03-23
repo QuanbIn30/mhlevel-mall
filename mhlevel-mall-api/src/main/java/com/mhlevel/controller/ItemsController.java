@@ -114,10 +114,38 @@ public class ItemsController extends BaseController{
             page = 1;
         }
         if (pageSize == null){
-            pageSize = 20;
+            pageSize = PAGE_SIZE;
         }
         PageGridResult result = itemService.searchItems(keyword, sort, page, pageSize);
 
         return MHLEVELJSONResult.ok(result);
+    }
+
+    @ApiOperation(value = "通过分类id搜索商品列表", notes = "通过分类id搜索商品列表", httpMethod = "GET")
+    @GetMapping("/catitems")
+    public MHLEVELJSONResult catItems(
+            @ApiParam(name = "catId", value = "分类Id", required = true)
+            @RequestParam Integer catId,
+            @ApiParam(name = "sort", value = "排序", required = false)
+            @RequestParam String sort,
+            @ApiParam(name = "page", value = "查询下一页的第几页", required = false)
+            @RequestParam Integer page,
+            @ApiParam(name = "pageSize", value = "每页查询总显示记录行数", required = false)
+            @RequestParam Integer pageSize
+    ){
+        if (catId == null){
+            return MHLEVELJSONResult.errorMsg(null);
+        }
+
+        if (page == null){
+            page = 1;
+        }
+
+        if (pageSize == null){
+            pageSize = PAGE_SIZE;
+        }
+
+        PageGridResult gridResult = itemService.searchItems(catId, sort, page, pageSize);
+        return MHLEVELJSONResult.ok(gridResult);
     }
 }

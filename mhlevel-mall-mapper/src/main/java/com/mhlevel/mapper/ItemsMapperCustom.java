@@ -11,4 +11,8 @@ public interface ItemsMapperCustom{
     List<ItemCommentVO> queryItemComments(@Param("paramMap") Map<String, Object> map);
 
     List<SearchItemsVO> searchItems(@Param("paramMap") Map<String, Object> map);
+
+    List<SearchItemsVO> searchItemsByThirdCat(@Param("paramMap") Map<String, Object> map);
+
+
 }

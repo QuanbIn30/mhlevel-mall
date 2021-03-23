@@ -15,7 +15,7 @@ public class SearchItemsVO {
 
     private Integer sellCount;
 
-    private Integer price;
+    private Integer price; //涉及到金额不是应该用BigDecimal类型吗？
 
     public String getItemId() {
         return itemId;
