@@ -1,0 +1,4 @@
+2021-03-24 22:45:04 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-03-24 22:45:04 INFO  DispatcherServlet:546 - Completed initialization in 15 ms
+2021-03-24 22:45:04 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2021-03-24 22:45:04 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.

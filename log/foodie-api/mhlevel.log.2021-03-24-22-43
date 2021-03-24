@@ -1,0 +1,52 @@
+2021-03-24 22:43:22 INFO  Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2021-03-24 22:43:23 INFO  Application:50 - Starting Application on quanbindeMacBook-Pro.local with PID 10149 (/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/target/classes started by quanbin in /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall)
+2021-03-24 22:43:23 INFO  Application:675 - No active profile set, falling back to default profiles: default
+2021-03-24 22:43:25 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.mhlevel]' package. Please check your configuration.
+2021-03-24 22:43:25 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4ae6812b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-24 22:43:25 INFO  TomcatWebServer:90 - Tomcat initialized with port(s): 8088 (http)
+2021-03-24 22:43:25 INFO  ContextLoader:296 - Root WebApplicationContext: initialization completed in 2347 ms
+2021-03-24 22:43:25 WARN  AnnotationConfigServletWebServerApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addressController': Unsatisfied dependency expressed through field 'addressService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mhlevel.service.AddressService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-03-24 22:43:26 ERROR LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field addressService in com.mhlevel.controller.AddressController required a bean of type 'com.mhlevel.service.AddressService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.mhlevel.service.AddressService' in your configuration.
+
+2021-03-24 22:43:53 INFO  Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2021-03-24 22:43:54 INFO  Application:50 - Starting Application on quanbindeMacBook-Pro.local with PID 10169 (/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/target/classes started by quanbin in /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall)
+2021-03-24 22:43:54 INFO  Application:675 - No active profile set, falling back to default profiles: default
+2021-03-24 22:43:56 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.mhlevel]' package. Please check your configuration.
+2021-03-24 22:43:56 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e269ee2e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-24 22:43:57 INFO  TomcatWebServer:90 - Tomcat initialized with port(s): 8088 (http)
+2021-03-24 22:43:57 INFO  ContextLoader:296 - Root WebApplicationContext: initialization completed in 3161 ms
+2021-03-24 22:43:57 WARN  AnnotationConfigServletWebServerApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addressController': Unsatisfied dependency expressed through field 'addressService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mhlevel.service.AddressService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-03-24 22:43:57 ERROR LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field addressService in com.mhlevel.controller.AddressController required a bean of type 'com.mhlevel.service.AddressService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.mhlevel.service.AddressService' in your configuration.
+

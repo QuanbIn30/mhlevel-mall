@@ -1,0 +1,4 @@
+2021-03-23 22:30:04 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-03-23 22:30:04 INFO  DispatcherServlet:546 - Completed initialization in 13 ms
+2021-03-23 22:30:04 WARN  DefaultHandlerExceptionResolver:198 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userId' is not present]
+2021-03-23 22:30:22 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
