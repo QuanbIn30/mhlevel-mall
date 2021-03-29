@@ -2,6 +2,7 @@ package com.mhlevel.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.mhlevel.enums.YesOrNo;
 import com.mhlevel.mapper.*;
 import com.mhlevel.pojo.*;
 import com.mhlevel.pojo.vo.CommentLevelCountsVO;
@@ -159,11 +160,37 @@ public class ItemServiceImpl implements ItemService {
         return grid;
     }
 
+    @Transactional(propagation = Propagation.SUPPORTS)
     @Override
     public List<ShopcartVO> queryItemsBySpecIds(String specIds) {
         String[] ids = specIds.split(",");
         List<String> specIdsList = new ArrayList<>();
         Collections.addAll(specIdsList, ids);
         return itemsMapperCustom.queryItemsBySpecIds(specIdsList);
+    }
+
+    @Transactional(propagation = Propagation.SUPPORTS)
+    @Override
+    public ItemsSpec queryItemSpecById(String specId) {
+        return itemsSpecMapper.selectByPrimaryKey(specId);
+    }
+
+    @Transactional(propagation = Propagation.SUPPORTS)
+    @Override
+    public String queryItemMainImgById(String itemId) {
+        ItemsImg itemsImg = new ItemsImg();
+        itemsImg.setItemId(itemId);
+        itemsImg.setIsMain(YesOrNo.YES.getType());
+        ItemsImg result = itemsImgMapper.selectOne(itemsImg);
+        return result != null ? result.getUrl() : "";
+    }
+
+    @Transactional(propagation = Propagation.REQUIRED)
+    @Override
+    public void decreaseItemSpecStock(String specId, int buyCounts) {
+        int result = itemsMapperCustom.decreaseItemSpecStock(specId,buyCounts);
+        if (result != 1){
+            throw new RuntimeException("订单创建失败，原因为库存不足");
+        }
     }
 }

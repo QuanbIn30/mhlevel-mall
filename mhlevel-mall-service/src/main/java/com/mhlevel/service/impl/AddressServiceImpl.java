@@ -49,6 +49,11 @@ public class AddressServiceImpl implements AddressService {
     }
 
 
+    /**
+     * 根据用户id查询用户的收货地址列表
+     * @param userId
+     * @return
+     */
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
     public List<UserAddress> QueryAll(String userId){
@@ -57,6 +62,10 @@ public class AddressServiceImpl implements AddressService {
         return userAddressMapper.select(ua);
     }
 
+    /**
+     * 用户修改地址
+     * @param addressBO
+     */
     @Transactional(propagation = Propagation.REQUIRED)
     @Override
     public void UpdateUserAddress(AddressBO addressBO) {
@@ -68,6 +77,11 @@ public class AddressServiceImpl implements AddressService {
         userAddressMapper.updateByPrimaryKeySelective(userAddress);
     }
 
+    /**
+     * 根据用户id和地址id，删除用户的对应地址信息
+     * @param userId
+     * @param addressId
+     */
     @Transactional(propagation = Propagation.REQUIRED)
     @Override
     public void DeleteUserAddress(String userId, String addressId) {
@@ -77,6 +91,11 @@ public class AddressServiceImpl implements AddressService {
         userAddressMapper.delete(userAddress);
     }
 
+    /**
+     * 修改默认地址
+     * @param userId
+     * @param addressId
+     */
     @Transactional(propagation = Propagation.REQUIRED)
     @Override
     public void UpdateUserAddressToBeDefault(String userId, String addressId) {
@@ -95,6 +114,12 @@ public class AddressServiceImpl implements AddressService {
         userAddressMapper.updateByPrimaryKeySelective(toBeDefaultAddress);
     }
 
+    /**
+     * 根据用户id和地址id，查询用户的具体的地址信息
+     * @param userId
+     * @param addressId
+     * @return
+     */
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
     public UserAddress QueryUserAddress(String userId, String addressId) {
