@@ -1,6 +1,9 @@
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/org/n3r/idworker/WorkerIdStrategy.java
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/org/n3r/idworker/Sid.java
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/org/n3r/idworker/DayCode.java
+/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/com/mhlevel/enums/PayMethod.java
+/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/com/mhlevel/utils/MobileEmailUtils.java
+/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/com/mhlevel/utils/PageGridResult.java
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/com/mhlevel/utils/MHLEVELJSONResult.java
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/org/n3r/idworker/InvalidSystemClock.java
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/org/n3r/idworker/utils/Utils.java
@@ -15,6 +18,7 @@
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/org/n3r/idworker/utils/IPv4Utils.java
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/com/mhlevel/enums/Sex.java
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/com/mhlevel/utils/JsonUtils.java
+/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/com/mhlevel/enums/OrderStatusEnum.java
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/org/n3r/idworker/strategy/DefaultWorkerIdStrategy.java
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/com/mhlevel/utils/DateUtil.java
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/org/n3r/idworker/Id.java
@@ -22,4 +26,6 @@
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/org/n3r/idworker/utils/HttpReq.java
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/org/n3r/idworker/strategy/DefaultRandomCodeStrategy.java
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/org/n3r/idworker/Code.java
+/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/com/mhlevel/enums/YesOrNo.java
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/com/mhlevel/utils/CookieUtils.java
+/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-common/src/main/java/com/mhlevel/utils/DesensitizationUtil.java

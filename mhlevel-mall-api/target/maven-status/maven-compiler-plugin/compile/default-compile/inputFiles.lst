@@ -1,6 +1,16 @@
+/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/src/main/java/com/mhlevel/controller/OrdersController.java
+/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/src/main/java/com/mhlevel/resource/FileUpload.java
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/src/main/java/com/mhlevel/controller/PassportController.java
-/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/src/main/java/com/mhlevel/config/Swagger2.java
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/src/main/java/com/mhlevel/controller/StuFooController.java
+/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/src/main/java/com/mhlevel/controller/ItemsController.java
+/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/src/main/java/com/mhlevel/controller/center/CenterUserController.java
+/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/src/main/java/com/mhlevel/controller/BaseController.java
+/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/src/main/java/com/mhlevel/controller/ShopCatController.java
+/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/src/main/java/com/mhlevel/controller/IndexController.java
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/src/main/java/com/mhlevel/controller/Hello.java
+/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/src/main/java/com/mhlevel/controller/AddressController.java
+/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/src/main/java/com/mhlevel/config/Swagger2.java
+/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/src/main/java/com/mhlevel/controller/center/CenterController.java
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/src/main/java/com/mhlevel/Application.java
+/Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/src/main/java/com/mhlevel/config/OrderJob.java
 /Users/quanbin/Work/learn/project/mhlevel-mall/mhlevel-mall/mhlevel-mall-api/src/main/java/com/mhlevel/config/CorsConfig.java

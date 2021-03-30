@@ -1,12 +1,15 @@
 com/mhlevel/mapper/OrdersMapper.class
 com/mhlevel/mapper/UsersMapper.class
 com/mhlevel/my/mapper/MyMapper.class
+com/mhlevel/mapper/ItemsMapperCustom.class
 com/mhlevel/mapper/ItemsMapper.class
 com/mhlevel/mapper/ItemsSpecMapper.class
 com/mhlevel/mapper/CategoryMapper.class
 com/mhlevel/mapper/UserAddressMapper.class
+com/mhlevel/mapper/ItemsCommentsMapperCustom.class
 com/mhlevel/mapper/StuMapper.class
 com/mhlevel/mapper/OrderItemsMapper.class
+com/mhlevel/mapper/CategoryMapperCustom.class
 com/mhlevel/mapper/OrderStatusMapper.class
 com/mhlevel/mapper/ItemsImgMapper.class
 com/mhlevel/mapper/CarouselMapper.class

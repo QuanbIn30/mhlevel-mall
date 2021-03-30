@@ -1,4 +1,16 @@
 com/mhlevel/service/StuService.class
+com/mhlevel/service/impl/CarouseServiceImpl.class
+com/mhlevel/service/impl/center/CenterUserServiceImpl.class
+com/mhlevel/service/CarouseService.class
+com/mhlevel/service/impl/AddressServiceImpl.class
+com/mhlevel/service/OrderService.class
+com/mhlevel/service/impl/ItemServiceImpl.class
+com/mhlevel/service/center/CenterUserService.class
+com/mhlevel/service/impl/OrderServiceImpl.class
+com/mhlevel/service/impl/UserServiceImpl.class
 com/mhlevel/service/impl/StuServiceImpl.class
+com/mhlevel/service/AddressService.class
+com/mhlevel/service/ItemService.class
+com/mhlevel/service/UserService.class
 com/mhlevel/service/CategoryService.class
 com/mhlevel/service/impl/CategoryServiceImpl.class

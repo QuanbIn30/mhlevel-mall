@@ -1,6 +1,7 @@
 package com.mhlevel.service.impl.center;
 
 import com.mhlevel.mapper.UsersMapper;
+import com.mhlevel.mapper.UsersMapperCustom;
 import com.mhlevel.pojo.Users;
 import com.mhlevel.pojo.bo.center.CenterUserBO;
 import com.mhlevel.service.center.CenterUserService;
@@ -21,6 +22,9 @@ public class CenterUserServiceImpl implements CenterUserService {
 
     @Autowired
     private UsersMapper usersMapper;
+
+    @Autowired
+    private UsersMapperCustom usersMapperCustom;
 
     /**
      * 查询用户基本信息
@@ -50,6 +54,23 @@ public class CenterUserServiceImpl implements CenterUserService {
         Users users = new Users();
         BeanUtils.copyProperties(centerUserBO, users);
         users.setId(userId);
+        users.setUpdatedTime(new Date());
+        usersMapper.updateByPrimaryKeySelective(users);
+        return queryUserInfo(userId);
+    }
+
+    /**
+     * 用户头像更新
+     * @param userId
+     * @param faceUrl
+     * @return
+     */
+    @Transactional(propagation = Propagation.REQUIRED)
+    @Override
+    public Users updateUserFace(String userId, String faceUrl) {
+        Users users = new Users();
+        users.setId(userId);
+        users.setFace(faceUrl);
         users.setUpdatedTime(new Date());
         usersMapper.updateByPrimaryKeySelective(users);
         return queryUserInfo(userId);
