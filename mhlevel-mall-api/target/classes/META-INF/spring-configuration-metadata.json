@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "file",
+      "type": "com.mhlevel.resource.FileUpload",
+      "sourceType": "com.mhlevel.resource.FileUpload"
+    }
+  ],
+  "properties": [
+    {
+      "name": "file.image-servel-url",
+      "type": "java.lang.String",
+      "sourceType": "com.mhlevel.resource.FileUpload"
+    },
+    {
+      "name": "file.image-user-face-location",
+      "type": "java.lang.String",
+      "sourceType": "com.mhlevel.resource.FileUpload"
+    }
+  ],
+  "hints": []
+}

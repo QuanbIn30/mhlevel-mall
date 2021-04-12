@@ -15,7 +15,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 @MapperScan(basePackages = "com.mhlevel.mapper")
 //扫描所有包已经相关组建所在的包
 @ComponentScan(basePackages = {"com.mhlevel", "org.n3r.idworker"})
-@EnableScheduling //开启定时任务
+//@EnableScheduling //开启定时任务
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);

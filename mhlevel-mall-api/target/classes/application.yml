@@ -20,6 +20,16 @@ spring:
       idle-timeout: 60000
       max-lifetime: 1800000
       connection-test-query: select 1
+  servlet:
+    multipart:
+      max-file-size: 512000 #文件上传大小限制为500KB
+      max-request-size: 512000 #最大请求大小限制为500KB
+  redis:
+    database: 1
+    host: 127.0.0.1
+    port: 6379
+
+
 # mybatis 配置
 mybatis:
   type-aliases-package: com.mhlevel.pojo
